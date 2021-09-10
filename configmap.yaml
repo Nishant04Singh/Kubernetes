@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+  namespace: compiler
+data:
+  name: "Nishant"
+  xml-core.xml: |
+    Simple
+    Hard
+    Normal
+  Description: "This is Config file"
